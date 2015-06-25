@@ -213,7 +213,7 @@ var Animation = function(){
     var canvasScaledWidth = (windowHeight*CANVAS_W)/CANVAS_H;
     var scaledMouseX = (windowHeight*CANVAS_W)/CANVAS_H;
     var offsetX = (windowWidth - canvasScaledWidth)/2;
-    var paralaxX = mouseX-windowWidth/2;
+    var paralaxX = mouseX+touchX-windowWidth/2;
     return x = paralaxX/paralaxAmount+(_x/_y)*y+offsetX;
   }
   this.update = function(_x, _y, _w, _h, paralaxAmount){
@@ -223,7 +223,7 @@ var Animation = function(){
     this.h = (_h/CANVAS_H)*windowHeight;
     this.w = (_w/_h)*this.h;
     
-    var paralaxY = mouseY-windowHeight/2;
+    var paralaxY = mouseY+touchY-windowHeight/2;
     y += paralaxY/paralaxAmount;
 
     for (var i = 0; i < this.start.length; i++) {
