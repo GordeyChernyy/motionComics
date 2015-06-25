@@ -171,21 +171,21 @@ var Animation = function(){
   }
   this.load = function(path, s, m, e){ // load images into arrays
     for (var i = 0; i <= s; i++) { // start
-      var img = createImg(path+'s'+i+'.png');
+      var img = createImg(path+'s'+i+'.gif');
       img.hide();
       img.class('animation');
       img.position(0,0);
       this.start.push(img);
     };
     for (var i = 0; i <= m; i++) { // middle
-      var img = createImg(path+'m'+i+'.png');
+      var img = createImg(path+'m'+i+'.gif');
       img.hide();
       img.class('animation');
       img.position(0,0);
       this.middle.push(img);
     };
     for (var i = 0; i <= e; i++) { // end
-      var img = createImg(path+'e'+i+'.png');
+      var img = createImg(path+'e'+i+'.gif');
       img.hide();
       img.class('animation');
       img.position(0,0);
