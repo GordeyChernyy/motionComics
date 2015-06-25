@@ -81,7 +81,8 @@ function draw() {
       sc2();
       break;
   }
-  tree3.update(171, 66, 465, 469, 7);
+  if (frameCount%4==0) {
+      tree3.update(171, 66, 465, 469, 7);
   tree3.updateDiv(220, 85, 379, 318, 7);
   tree3Eye.update(318, 156, 180, 251, 7);
   tree1.update(50, 258, 152, 152, 50);
@@ -93,6 +94,8 @@ function draw() {
   stone2.update(29, 302, 454, 407, 3); 
   stone2.updateDiv(171, 563, 201, 126, 3); 
   stone2Eye.update(189, 564, 180, 251, 3);
+  };
+
   var w = windowWidth;
   var h = windowHeight;
   text6p2.size(200, 100);
