@@ -81,8 +81,7 @@ function draw() {
       sc2();
       break;
   }
-  if (frameCount%4==0) {
-      tree3.update(171, 66, 465, 469, 7);
+  tree3.update(171, 66, 465, 469, 7);
   tree3.updateDiv(220, 85, 379, 318, 7);
   tree3Eye.update(318, 156, 180, 251, 7);
   tree1.update(50, 258, 152, 152, 50);
@@ -94,8 +93,6 @@ function draw() {
   stone2.update(29, 302, 454, 407, 3); 
   stone2.updateDiv(171, 563, 201, 126, 3); 
   stone2Eye.update(189, 564, 180, 251, 3);
-  };
-
   var w = windowWidth;
   var h = windowHeight;
   text6p2.size(200, 100);
@@ -140,6 +137,8 @@ var Animation = function(){
   this.div;
   this.divOver = false;
   var _divOver = false;
+  this.w = 0;
+  this.h = 0;
   
   this.makeDiv = function(){
     this.div = createDiv('');
@@ -157,7 +156,6 @@ var Animation = function(){
   this.updateDiv = function(_x, _y, _w, _h, paralaxAmount){
     if (this.begining && this.endingEnd) {
       this.divOver = _divOver;
-      print('_divOver divOver = '+_divOver);
       this.div.show();
       var y = this.calcY(_y);
       var x = this.calcX(_x, _y, y, paralaxAmount);
@@ -222,25 +220,26 @@ var Animation = function(){
     var y = this.calcY(_y);
     var x = this.calcX(_x, _y, y, paralaxAmount);
 
-    var h = (_h/CANVAS_H)*windowHeight;
-    var w = (_w/_h)*h;
+    this.h = (_h/CANVAS_H)*windowHeight;
+    this.w = (_w/_h)*this.h;
     
     var paralaxY = mouseY-windowHeight/2;
     y += paralaxY/paralaxAmount;
 
     for (var i = 0; i < this.start.length; i++) {
-      this.start[i].size(w, h);
+      // this.start[i].size(w, h);
       this.start[i].position(x, y);
     };
     for (var i = 0; i < this.middle.length; i++) {
-      this.middle[i].size(w, h);
+      // this.middle[i].size(w, h);
       this.middle[i].position(x, y);
     };
     for (var i = 0; i < this.end.length; i++) {
-      this.end[i].size(w, h);
+      // this.end[i].size(w, h);
       this.end[i].position(x, y);
     };
     if (frameCount%4==0) {
+      // this.start[this.startIndex].size(w, h);
       this.play();
     };
     
@@ -296,8 +295,10 @@ var Animation = function(){
   this.playStart = function(index){
     if(index>0){
       this.start[index-1].hide();
+      this.start[index].size(this.w, this.h);
       this.start[index].show();
     }else{
+      this.start[index].size(this.w, this.h);
       this.start[index].show();
       // start.end[start.end.length-1].hide(); // for looped
     }
@@ -305,8 +306,10 @@ var Animation = function(){
   this.playMiddle = function(index){
     if(index>0){
       this.middle[index-1].hide();
+      this.middle[index].size(this.w, this.h);      
       this.middle[index].show();
     }else{
+      this.middle[index].size(this.w, this.h);      
       this.middle[index].show();
       this.middle[this.middle.length-1].hide(); // for looped
     }
@@ -314,8 +317,10 @@ var Animation = function(){
   this.playEnd = function(index){
     if(index>0){
       this.end[index-1].hide();
+      this.end[index].size(this.w, this.h);  
       this.end[index].show();
     }else{
+      this.end[index].size(this.w, this.h);  
       this.end[index].show();
     }
   }
