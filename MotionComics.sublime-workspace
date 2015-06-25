@@ -1,0 +1,828 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fun",
+				"function"
+			],
+			[
+				"mahavitr",
+				"mahavitra_S"
+			],
+			[
+				"pl",
+				"play"
+			],
+			[
+				"tin",
+				"tint"
+			],
+			[
+				"frami",
+				"framesInScenes"
+			],
+			[
+				"frames",
+				"framesInScenes"
+			],
+			[
+				"la",
+				"LayersData"
+			],
+			[
+				"L",
+				"LayersData"
+			],
+			[
+				"au",
+				"audioPointer"
+			],
+			[
+				"blen",
+				"blendind"
+			],
+			[
+				"bl",
+				"blendmod"
+			],
+			[
+				"ble",
+				"blendind"
+			],
+			[
+				"else",
+				"else	else"
+			],
+			[
+				"cle",
+				"cleanPgfill"
+			],
+			[
+				"brushf",
+				"brushFillRelease"
+			],
+			[
+				"vert",
+				"vertex	vertex"
+			],
+			[
+				"end",
+				"endshape	endShape"
+			],
+			[
+				"beg",
+				"beginshape	beginShape"
+			],
+			[
+				"br",
+				"brushSelect"
+			],
+			[
+				"bruf",
+				"brushFillRelease"
+			],
+			[
+				"bru",
+				"brushFill"
+			],
+			[
+				"dra",
+				"drawLine"
+			],
+			[
+				"Pg",
+				"PGraphics"
+			],
+			[
+				"thr",
+				"thread"
+			],
+			[
+				"tri",
+				"triangle	triangle"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"en",
+				"endDraw"
+			],
+			[
+				"bd",
+				"brushDraw"
+			],
+			[
+				"mouse",
+				"mouse	mousePressed"
+			],
+			[
+				"hs",
+				"history"
+			],
+			[
+				"pg",
+				"pgfill"
+			],
+			[
+				"d",
+				"document"
+			],
+			[
+				"s",
+				"script	Tag"
+			],
+			[
+				"p",
+				"position"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/gordey/Projects/processing/Anima_GifExport/Anima_GifExport.pde",
+			"settings":
+			{
+				"buffer_size": 5148,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/gordey/Projects/processing/Anima_GifExport/Render.pde",
+			"settings":
+			{
+				"buffer_size": 1862,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/gordey/Projects/processing/Anima_GifExport/Project.pde",
+			"settings":
+			{
+				"buffer_size": 6212,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 482,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "MyStyle.css",
+			"settings":
+			{
+				"buffer_size": 609,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sketch.js",
+			"settings":
+			{
+				"buffer_size": 2439,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Processing/Processing.sublime-build",
+	"command_palette":
+	{
+		"height": 324.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"task",
+				"Tasks: View as HTML"
+			],
+			[
+				"ta",
+				"Tasks: New"
+			],
+			[
+				"tas",
+				"Tasks: New"
+			],
+			[
+				"rel",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"pre",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"user",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"p",
+				"Preferences: Browse Packages"
+			],
+			[
+				"live",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"liverel",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"liv",
+				"LiveReload: Enable/disable plug-ins"
+			]
+		],
+		"width": 503.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/gordey/Projects/processing/Anima_1_10/Brushes.pde",
+		"/Users/gordey/Library/Application Support/Sublime Text 2/Packages/User/IDLE.tmTheme",
+		"/Users/gordey/Library/Application Support/Sublime Text 2/Packages/User/wonderLog.tmLanguage",
+		"/Users/gordey/untitled.txt",
+		"/Users/gordey/Projects/processing/Anima_1_10/Anima_1_10.pde",
+		"/Users/gordey/Projects/processing/Anima_1_10/Audio.pde",
+		"/Users/gordey/Projects/processing/Anima_1_10/Project.pde",
+		"/Users/gordey/Library/Application Support/Sublime Text 2/Packages/SublimeText-Google-Translate-Plugin/Default (OSX).sublime-keymap",
+		"/Users/gordey/Projects/processing/Anima_1_10/Play.pde",
+		"/Users/gordey/test.txt",
+		"/Users/gordey/Library/Application Support/Sublime Text 2/Packages/MarkdownEditing/README.md",
+		"/Users/gordey/test.md",
+		"/Users/gordey/Projects/processing/Anima_1_10/swatches.pde",
+		"/Users/gordey/Projects/processing/Anima_1_10/Interface.pde",
+		"/Users/gordey/Projects/processing/Anima_1_10/Key.pde",
+		"/Users/gordey/Projects/processing/Anima_1_10/Buffer.pde",
+		"/Users/gordey/Projects/processing/Anima_1_10/Todo.TODO",
+		"/Users/gordey/Projects/processing/Anima_1_10/Display.pde",
+		"/Users/gordey/Library/Application Support/Sublime Text 2/Packages/HighlightWords/HighlightWords.sublime-settings",
+		"/Users/gordey/Library/Application Support/Sublime Text 2/Packages/SublimeText-Google-Translate-Plugin/goTranslate.sublime-settings",
+		"/Users/gordey/Library/Application Support/Sublime Text 2/Packages/User/HighlightWords.sublime-settings",
+		"/Users/gordey/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Applications/Processing.app/Contents/Java/ant.jar",
+		"/Applications/Processing.app/Contents/Java/ant-launcher.jar",
+		"/Users/gordey/Projects/processing/Anima_1_10/Base.pde",
+		"/Users/gordey/Projects/processing/Anima_1_10/Frame.pde",
+		"/Users/gordey/Library/Application Support/Sublime Text 2/Packages/PlainTasks/Default (OSX).sublime-keymap",
+		"/Users/gordey/Projects/processing/Anima_1_10/Shape.pde",
+		"/Users/gordey/Projects/processing/Anima_1_10/Render.pde",
+		"/Users/gordey/Projects/processing/Anima_1_10/Loop.pde",
+		"/Users/gordey/Projects/processing/Anima_1_10/Help.pde",
+		"/Users/gordey/Projects/processing/Anima_1_10/Functions.pde",
+		"/Users/gordey/Projects/processing/Anima_1_10/Drawing.pde",
+		"/Users/gordey/Projects/processing/Anima_1_10/Anima_1_08.pde",
+		"/Users/gordey/Projects/processing/Anima_1_10/sketch.properties",
+		"/Users/gordey/Projects/processing/Anima_1_08/sketch.properties",
+		"/Users/gordey/Projects/processing/Anima_1_08/nullProjData.csv",
+		"/Users/gordey/Projects/processing/Anima_1_08/nullLayersData.csv",
+		"/Users/gordey/Projects/processing/Anima_1_08/Help.pde",
+		"/Users/gordey/Projects/processing/Anima_1_08/Anima_1_08.sublime-workspace",
+		"/Users/gordey/Projects/processing/Anima_1_08/Anima_1_08.sublime-project",
+		"/Users/gordey/Sites/share/index.html",
+		"/Users/gordey/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/gordey/Sites/share/sketch.js",
+		"/Users/gordey/Sites/share/addons/p5.dom.js",
+		"/Users/gordey/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/gordey/Sites/Philosophers_Pinball/sketch.js",
+		"/Users/gordey/Sites/Philosophers_Pinball/index.html",
+		"/Users/gordey/Sites/Philosophers_Pinball/p5.js",
+		"/Users/gordey/Sites/scroll/addons/p5.dom.js",
+		"/Users/gordey/Sites/share/addons/p5.elt.js",
+		"/Users/gordey/Library/Application Support/Sublime Text 2/Packages/PlainTasks/Readme.md",
+		"/Users/gordey/Projects/processing/Anima_1_08/Drawing.pde",
+		"/Users/gordey/Projects/processing/Anima_1_08/Key.pde",
+		"/Users/gordey/Projects/processing/Anima_1_08/Project.pde",
+		"/Users/gordey/Projects/processing/Anima_1_08/Anima_1_08.pde",
+		"/Users/gordey/Projects/processing/Anima_1_08/Buffer.pde",
+		"/Users/gordey/Projects/processing/Anima_1_08/Utilities.pde",
+		"/Users/gordey/Projects/processing/Anima_1_08/swatches.pde",
+		"/Users/gordey/Projects/processing/Anima_1_08/Shape.pde",
+		"/Users/gordey/Projects/processing/Anima_1_08/Render.pde",
+		"/Users/gordey/Projects/processing/Anima_1_08/Play.pde",
+		"/Users/gordey/Projects/processing/Anima_1_08/Loop.pde",
+		"/Users/gordey/Projects/processing/Anima_1_08/Interface.pde",
+		"/Users/gordey/Projects/processing/Anima_1_08/Functions.pde",
+		"/Users/gordey/Projects/processing/Anima_1_08/Frame.pde",
+		"/Users/gordey/Projects/processing/Anima_1_08/Display.pde",
+		"/Users/gordey/Projects/processing/Anima_1_08/Audio.pde",
+		"/Users/gordey/Projects/processing/Anima_1_08/Base.pde",
+		"/Users/gordey/Projects/processing/Anima_1_08/Brushes.pde"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/gordey/Projects/processing/Anima_1_10"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mahavitra_S",
+			"mahavitra_M",
+			"hide",
+			"mahavitraOver",
+			"mahavitra_S",
+			"text",
+			"mahavitra_S",
+			"S",
+			"mute",
+			"f",
+			"@",
+			"rival",
+			"busy",
+			"~",
+			"\n~",
+			"!",
+			"~",
+			"!",
+			"illuminates",
+			"admonished",
+			"lucid",
+			" ?",
+			".",
+			"inherited",
+			"!Barack !Obama !inherited two ugly, intractable wars in Iraq and Afghanistan when he became president and set to work to end them. ",
+			"Barack",
+			"Draw",
+			"Uiasdf",
+			"Draw",
+			"a",
+			"Draw",
+			"asdf",
+			"asdfasd",
+			"asdf",
+			" A century before our age of distraction and restless productivity, Russell admonished against its perilous effects and championed the role of boredom and stillness in our conquest of happiness.\n",
+			"A century before our age of distraction and restless productivity, Russell admonished against its perilous effects and championed the role of boredom and stillness in our conquest of happiness.\n",
+			".",
+			" ",
+			"-",
+			" ",
+			"-",
+			" ",
+			"-",
+			"- linear",
+			"-",
+			"values",
+			"-",
+			"brushDraft",
+			"brushEraseUp",
+			"brushDraftUp",
+			"fill",
+			";",
+			"fill",
+			"fBefore",
+			";",
+			"112",
+			"color",
+			"fill",
+			"3",
+			"2",
+			"1",
+			"0",
+			"    if (key == '1') {colorChange(0);}\n    if (key == '2') {colorChange(1);}\n    if (key == '3') {colorChange(2);}\n    if (key == '4') {colorChange(3);}\n",
+			"buffImage",
+			"copyImage",
+			"copyImage()",
+			"public void copyImage()",
+			"copyImage",
+			"buffimage",
+			"buffImage",
+			"  if (buffImage!=null) {\n    image(buffImage, 0, 0, w/2, h/2);\n  }\n",
+			"drawing",
+			"dragShape",
+			"brushShape",
+			"dragShape",
+			"Mouse",
+			"img",
+			"e",
+			"s",
+			"S",
+			"s",
+			"0",
+			");",
+			"m",
+			"pgfill",
+			"draft",
+			"  draft = createGraphics(w,h,JAVA2D);\n",
+			"255",
+			"draft",
+			"dr",
+			"hsi",
+			"pgfill",
+			"hsi",
+			"hs",
+			"v",
+			"color",
+			"col",
+			")(?!\\\\([\\\\",
+			"d",
+			"12",
+			"25",
+			"12",
+			"123",
+			"2",
+			"1",
+			"12",
+			"123",
+			"12",
+			"233",
+			"12",
+			"123",
+			"233",
+			"12",
+			"255",
+			"12",
+			"255",
+			"12",
+			"255",
+			"12",
+			"255",
+			"12",
+			"25512",
+			"12",
+			"299",
+			"13",
+			"123",
+			"255",
+			"100"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/gordey/Projects/processing/Anima_GifExport/Anima_GifExport.pde",
+					"settings":
+					{
+						"buffer_size": 5148,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								415,
+								415
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Processing/Syntax/Processing.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/gordey/Projects/processing/Anima_GifExport/Render.pde",
+					"settings":
+					{
+						"buffer_size": 1862,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								562,
+								562
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Processing/Syntax/Processing.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/gordey/Projects/processing/Anima_GifExport/Project.pde",
+					"settings":
+					{
+						"buffer_size": 6212,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								759,
+								716
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Processing/Syntax/Processing.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								220,
+								220
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "MyStyle.css",
+					"settings":
+					{
+						"buffer_size": 609,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								268,
+								268
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "sketch.js",
+					"settings":
+					{
+						"buffer_size": 2439,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1227,
+								1227
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 864.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 27.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"pro",
+				"Project.pde"
+			],
+			[
+				"k",
+				"Key.pde"
+			],
+			[
+				"pl",
+				"Play.pde"
+			],
+			[
+				"ba",
+				"Base.pde"
+			],
+			[
+				"ke",
+				"Key.pde"
+			],
+			[
+				"au",
+				"Audio.pde"
+			],
+			[
+				"in",
+				"Interface.pde"
+			],
+			[
+				"bru",
+				"Brushes.pde"
+			],
+			[
+				"di",
+				"Display.pde"
+			],
+			[
+				"proj",
+				"Project.pde"
+			],
+			[
+				"sw",
+				"swatches.pde"
+			],
+			[
+				"p",
+				"Play.pde"
+			],
+			[
+				"buf",
+				"Buffer.pde"
+			],
+			[
+				"an",
+				"Anima_1_10.pde"
+			],
+			[
+				"pr",
+				"Project.pde"
+			],
+			[
+				"dis",
+				"Display.pde"
+			],
+			[
+				"br",
+				"Brushes.pde"
+			],
+			[
+				"my",
+				"/Users/gordey/Library/Application Support/Sublime Text 2/Packages/PlainTasks/MyTask.TODO"
+			],
+			[
+				"m",
+				"/Users/gordey/Library/Application Support/Sublime Text 2/Packages/PlainTasks/MyTask.TODO"
+			],
+			[
+				"anim",
+				"Anima_1_08.pde"
+			],
+			[
+				"a",
+				"Audio.pde"
+			],
+			[
+				"u",
+				"untitled"
+			],
+			[
+				"key",
+				"Key.pde"
+			],
+			[
+				"dra",
+				"Drawing.pde"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 237.0,
+	"status_bar_visible": true
+}
