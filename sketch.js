@@ -16,6 +16,9 @@ var eye;
 const CANVAS_H = 866;
 const CANVAS_W = 797;
 const RANDMAX = 30;
+
+var mX;
+var mY;
 function preload(){
 
 }
@@ -91,6 +94,13 @@ function windowResized(){
 }
 
 function draw() {
+  if (isMobile()) {
+    mX = touchX;
+    mY = touchY;
+  }else{
+    mX = mouseX;
+    mY = mouseY;
+  };
   switch(scNum){
     case 0:
       sc1();
@@ -99,10 +109,7 @@ function draw() {
       sc2();
       break;
   }
-  if (isMobile()) {
-    text6p2.size(400, 400);
-    text6p2.position(w/2-text6p2.width/2, windowHeight/1.2-text6p2.height);  
-  };
+
   tree3.update(171, 66, 465, 469, 7);
   tree3.updateDiv(220, 85, 379, 318, 7);
   tree3Eye.update(318, 156, 180, 251, 7);
@@ -117,7 +124,8 @@ function draw() {
   stone2Eye.update(189, 564, 180, 251, 3);
   var w = windowWidth;
   var h = windowHeight;
-
+  text6p2.size(200, 100);
+  text6p2.position(w/2-text6p2.width/2, windowHeight/1.2-text6p2.height);
 }
 function sc1(){
   if(frameCount%int(random(RANDMAX))==0) text6p2.show();
@@ -234,7 +242,7 @@ var Animation = function(){
     var canvasScaledWidth = (windowHeight*CANVAS_W)/CANVAS_H;
     var scaledMouseX = (windowHeight*CANVAS_W)/CANVAS_H;
     var offsetX = (windowWidth - canvasScaledWidth)/2;
-    var paralaxX = mouseX+touchX-windowWidth/2;
+    var paralaxX = mX-windowWidth/2;
     return x = paralaxX/paralaxAmount+(_x/_y)*y+offsetX;
   }
   this.update = function(_x, _y, _w, _h, paralaxAmount){
@@ -244,7 +252,7 @@ var Animation = function(){
     this.h = (_h/CANVAS_H)*windowHeight;
     this.w = (_w/_h)*this.h;
     
-    var paralaxY = mouseY+touchY-windowHeight/2;
+    var paralaxY = mY-windowHeight/2;
     y += paralaxY/paralaxAmount;
 
     for (var i = 0; i < this.start.length; i++) {
