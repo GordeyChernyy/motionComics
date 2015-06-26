@@ -19,7 +19,25 @@ const RANDMAX = 30;
 function preload(){
 
 }
+// Used to detect whether the users browser is an mobile browser
+function isMobile() {
+    ///<summary>Detecting whether the browser is a mobile browser or desktop browser</summary>
+    ///<returns>A boolean value indicating whether the browser is a mobile browser or not</returns>
+
+    if (sessionStorage.desktop) // desktop storage 
+        return false;
+    else if (localStorage.mobile) // mobile storage
+        return true;
+
+    // alternative
+    var mobile = ['iphone','ipad','android','blackberry','nokia','opera mini','windows mobile','windows phone','iemobile']; 
+    for (var i in mobile) if (navigator.userAgent.toLowerCase().indexOf(mobile[i].toLowerCase()) > 0) return true;
+
+    // nothing found.. assume desktop
+    return false;
+}
 function setup() {
+
   tree1 = new Animation();
   tree1.load(url+'/images/tree/', 3, 1, 5); 
   stone = new Animation();
@@ -81,6 +99,10 @@ function draw() {
       sc2();
       break;
   }
+  if (isMobile()) {
+    text6p2.size(400, 400);
+    text6p2.position(w/2-text6p2.width/2, windowHeight/1.2-text6p2.height);  
+  };
   tree3.update(171, 66, 465, 469, 7);
   tree3.updateDiv(220, 85, 379, 318, 7);
   tree3Eye.update(318, 156, 180, 251, 7);
@@ -95,8 +117,7 @@ function draw() {
   stone2Eye.update(189, 564, 180, 251, 3);
   var w = windowWidth;
   var h = windowHeight;
-  text6p2.size(200, 100);
-  text6p2.position(w/2-text6p2.width/2, windowHeight/1.2-text6p2.height);
+
 }
 function sc1(){
   if(frameCount%int(random(RANDMAX))==0) text6p2.show();
