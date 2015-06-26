@@ -6,7 +6,7 @@ var buttonNext;
 // -------------- Chapters
 var text6p2;
 // -------------- Path
-var url = "http://gordeychernyy.github.io/motionComics";
+var url = "http://gordeychernyy.github.io/motionComics/broke";
 // -------------- Sprites
 var mahavitra;
 var tree3, tree1, tree2;
