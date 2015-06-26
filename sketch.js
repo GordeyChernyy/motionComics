@@ -62,13 +62,13 @@ function setup() {
 
   buttonPrev = createDiv("<<");
   buttonPrev.class('button');
-  buttonPrev.size(20, buttonPrev.height);
+  buttonPrev.size(40, buttonPrev.height);
   buttonPrev.position(0, windowHeight/2);
   buttonPrev.mousePressed(prevScene);
 
   buttonNext = createDiv(">>");
   buttonNext.class('button');
-  buttonNext.size(20, buttonNext.height);
+  buttonNext.size(10, buttonNext.height);
   buttonNext.position(windowWidth-buttonNext.width, windowHeight/2);
   buttonNext.mousePressed(nextScene);
 
@@ -160,8 +160,7 @@ var Animation = function(){
   var _divOver = false;
   this.w = 0;
   this.h = 0;
-  this.posX = 0;
-  this.posY = 0;
+  
   this.makeDiv = function(){
     this.div = createDiv('');
     this.div.class('animButton');
@@ -239,17 +238,28 @@ var Animation = function(){
     return x = paralaxX/paralaxAmount+(_x/_y)*y+offsetX;
   }
   this.update = function(_x, _y, _w, _h, paralaxAmount){
-    this.posY = this.calcY(_y);
-    this.posX = this.calcX(_x, _y, this.posY, paralaxAmount);
+    var y = this.calcY(_y);
+    var x = this.calcX(_x, _y, y, paralaxAmount);
 
     this.h = (_h/CANVAS_H)*windowHeight;
     this.w = (_w/_h)*this.h;
     
     var paralaxY = mY-windowHeight/2;
-    this.posY += paralaxY/paralaxAmount;
+    y += paralaxY/paralaxAmount;
 
-
-    if (frameCount%2==0) {
+    for (var i = 0; i < this.start.length; i++) {
+      // this.start[i].size(w, h);
+      this.start[i].position(x, y);
+    };
+    for (var i = 0; i < this.middle.length; i++) {
+      // this.middle[i].size(w, h);
+      this.middle[i].position(x, y);
+    };
+    for (var i = 0; i < this.end.length; i++) {
+      // this.end[i].size(w, h);
+      this.end[i].position(x, y);
+    };
+    if (frameCount%4==0) {
       // this.start[this.startIndex].size(w, h);
       this.play();
     };
@@ -307,11 +317,9 @@ var Animation = function(){
     if(index>0){
       this.start[index-1].hide();
       this.start[index].size(this.w, this.h);
-      this.start[index].position(this.posX, this.posY);
       this.start[index].show();
     }else{
       this.start[index].size(this.w, this.h);
-      this.start[index].position(this.posX, this.posY);
       this.start[index].show();
       // start.end[start.end.length-1].hide(); // for looped
     }
@@ -320,11 +328,9 @@ var Animation = function(){
     if(index>0){
       this.middle[index-1].hide();
       this.middle[index].size(this.w, this.h);      
-      this.middle[index].position(this.posX, this.posY);      
       this.middle[index].show();
     }else{
       this.middle[index].size(this.w, this.h);      
-      this.middle[index].position(this.posX, this.posY);      
       this.middle[index].show();
       this.middle[this.middle.length-1].hide(); // for looped
     }
@@ -333,11 +339,9 @@ var Animation = function(){
     if(index>0){
       this.end[index-1].hide();
       this.end[index].size(this.w, this.h);  
-      this.end[index].position(this.posX, this.posY);  
       this.end[index].show();
     }else{
       this.end[index].size(this.w, this.h);  
-      this.end[index].position(this.posX, this.posY);  
       this.end[index].show();
     }
   }
