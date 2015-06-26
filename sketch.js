@@ -6,7 +6,7 @@ var buttonNext;
 // -------------- Chapters
 var text6p2;
 // -------------- Path
-var url = "http://gordeychernyy.github.io/motionComics/broke";
+var url = "http://gordeychernyy.github.io/motionComics";
 // -------------- Sprites
 var mahavitra;
 var tree3, tree1, tree2;
@@ -22,21 +22,13 @@ var mY;
 function preload(){
 
 }
-// Used to detect whether the users browser is an mobile browser
 function isMobile() {
-    ///<summary>Detecting whether the browser is a mobile browser or desktop browser</summary>
-    ///<returns>A boolean value indicating whether the browser is a mobile browser or not</returns>
-
     if (sessionStorage.desktop) // desktop storage 
         return false;
     else if (localStorage.mobile) // mobile storage
         return true;
-
-    // alternative
     var mobile = ['iphone','ipad','android','blackberry','nokia','opera mini','windows mobile','windows phone','iemobile']; 
     for (var i in mobile) if (navigator.userAgent.toLowerCase().indexOf(mobile[i].toLowerCase()) > 0) return true;
-
-    // nothing found.. assume desktop
     return false;
 }
 function setup() {
@@ -70,13 +62,13 @@ function setup() {
 
   buttonPrev = createDiv("<<");
   buttonPrev.class('button');
-  buttonPrev.size(10, buttonPrev.height);
+  buttonPrev.size(20, buttonPrev.height);
   buttonPrev.position(0, windowHeight/2);
   buttonPrev.mousePressed(prevScene);
 
   buttonNext = createDiv(">>");
   buttonNext.class('button');
-  buttonNext.size(10, buttonNext.height);
+  buttonNext.size(20, buttonNext.height);
   buttonNext.position(windowWidth-buttonNext.width, windowHeight/2);
   buttonNext.mousePressed(nextScene);
 
